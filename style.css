@@ -1,0 +1,39 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    color: green;
+
+}
+header {
+    position: fixed;
+    width: 100%;
+    background-color: #555;
+}
+.container {
+    display: flex;
+    margin: 10px, 100px;
+    align-self: center;
+    justify-content: space-between;
+}
+
+#nav-item {
+    list-style: none;
+    display: flex;
+    margin-left: 30px;
+    color: blanchedalmond;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+#branding {
+    cursor: pointer;
+}
+#branding h2 {
+    color: black;
+    font-size: 32px;
+}
+
+.nav-item {
+    margin-left: 30px;
+}
